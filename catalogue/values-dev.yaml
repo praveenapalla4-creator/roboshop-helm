@@ -1,0 +1,4 @@
+deployemnt:
+  imageRepo: pallapraveena/catalogue
+  imageVersion: v1 
+
