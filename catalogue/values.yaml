@@ -1,7 +1,7 @@
-deployemnt:
+deployment:
   imageRepo: pallapraveena/catalogue
   imageVersion: v1 
 configmap: 
   mongoURL: "mongodb://mongodb:27017/catalogue"
 service:
-  type: ClusterIp
+  type: ClusterIP
