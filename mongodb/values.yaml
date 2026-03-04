@@ -1,0 +1,5 @@
+deployemnt:
+  imageRepo: pallapraveena/mongodb
+  imageVersion: v1 
+service:
+  type: ClusterIp
