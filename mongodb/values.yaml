@@ -1,4 +1,4 @@
-deployemnt:
+deployment:
   imageRepo: pallapraveena/mongodb
   imageVersion: v1 
 service:
