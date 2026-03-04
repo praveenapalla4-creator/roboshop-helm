@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: mongodb
-        image: "{{.Values.deploymenyt.imageRepo }}: {{ .Values.deployemnt.imageVersion }}"
+        image: {{.Values.deploymenyt.imageRepo }}: {{ .Values.deployemnt.imageVersion }}
         readinessProbe:
           tcpSocket:
             port: 27017
